@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B2BLink</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+  <!-- Header -->
+  <div class="max-w-7xl mx-auto p-6">
+    <header class="flex justify-between items-center mb-8">
+      <h1 class="text-2xl font-bold">
+        B2B<span class="text-blue-600">Link</span>
+      </h1>
+      <button class="border px-4 py-2 rounded hover:bg-gray-100">
+        Стати постачальником
+      </button>
+    </header>
+
+    <!-- Title -->
+    <h2 class="text-3xl font-bold mb-4 leading-tight">
+      З’єднуємо компанії <br> з вигідними пропозиціями
+    </h2>
+
+    <!-- Search -->
+    <div class="flex flex-wrap gap-2 mt-6">
+      <input type="text" placeholder="Шукайте товар" class="border px-4 py-2 rounded grow" />
+      <select class="border px-4 py-2 rounded">
+        <option>Оберіть категорію</option>
+      </select>
+      <input type="text" placeholder="Місто" class="border px-4 py-2 rounded" />
+      <button class="bg-blue-600 text-white px-6 py-2 rounded">
+        Знайти
+      </button>
+    </div>
+
+    <!-- Popular Categories -->
+    <section class="mt-12">
+      <h3 class="text-xl font-semibold mb-4">Популярні категорії</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <!-- Card 1 -->
+        <div class="border rounded-lg p-4 flex flex-col items-center text-center bg-white shadow hover:shadow-md transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Цегла" class="w-16 h-16 mb-2" />
+          <h4 class="font-semibold">Компанія «Інтербуд»</h4>
+          <p class="text-sm text-gray-600">Цегла керамічна М-125 Київ</p>
+          <p class="font-bold text-lg mt-2">₴ 7,50</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="border rounded-lg p-4 flex flex-col items-center text-center bg-white shadow hover:shadow-md transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="Шестерня" class="w-16 h-16 mb-2" />
+          <h4 class="font-semibold">Промисловість</h4>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="border rounded-lg p-4 flex flex-col items-center text-center bg-white shadow hover:shadow-md transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/1044/1044907.png" alt="Мотор" class="w-16 h-16 mb-2" />
+          <h4 class="font-semibold">ЕнергоПром</h4>
+          <p class="text-sm text-gray-600">Електродвигуни 11 кВт Харків</p>
+          <p class="font-bold text-lg mt-2">₴ 15 600</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="border rounded-lg p-4 flex flex-col items-center text-center bg-white shadow hover:shadow-md transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/892/892458.png" alt="Джинси" class="w-16 h-16 mb-2" />
+          <h4 class="font-semibold">РітейлТекс</h4>
+          <p class="text-sm text-gray-600">Джинси чоловічі оптом Одеса</p>
+          <p class="font-bold text-lg mt-2">₴ 400</p>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
